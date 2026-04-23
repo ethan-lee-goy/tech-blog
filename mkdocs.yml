@@ -41,6 +41,7 @@ nav:
   - 强化学习:
     - 概述: reinforcement-learning/README.md
     - 第1章 强化学习入门: reinforcement-learning/ch01_intro_to_rl.ipynb
+    - 第2章 马尔可夫决策过程: reinforcement-learning/ch02_mdp.ipynb
   - 博弈算法:
     - 概述: game-theory/README.md
   - 车辆控制:
