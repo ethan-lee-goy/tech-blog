@@ -4,10 +4,35 @@
 
 ## 目录结构
 
-- **reinforcement-learning/** - 强化学习笔记
+- **reinforcement-learning/** - 强化学习笔记 | [📚 完整学习路线图](reinforcement-learning/ROADMAP.md)
+  
+  **第一部分：基础理论**
   - [第1章 强化学习入门](reinforcement-learning/ch01_intro_to_rl.ipynb)
   - [第2章 马尔可夫决策过程](reinforcement-learning/ch02_mdp.ipynb)
-  - [第3章 从有模型到无模型强化学习](reinforcement-learning/ch03_model_based_rl_vs_model_free_rl.ipynb)
+  - [第3章 有模型与无模型强化学习](reinforcement-learning/ch03_model_based_rl_vs_model_free_rl.ipynb)
+  
+  **第二部分：函数近似与深度强化学习**（规划中）
+  - 第4章 函数近似
+  - 第5章 深度 Q 网络（DQN）
+  
+  **第三部分：策略梯度方法**（规划中）
+  - 第6章 策略梯度基础
+  - 第7章 Actor-Critic 方法
+  - 第8章 PPO 与 TRPO
+  
+  **第四部分：连续控制**（规划中）
+  - 第9章 确定性策略梯度（DDPG, TD3）
+  - 第10章 最大熵强化学习（SAC）
+  
+  **第五部分：前沿主题**（规划中）
+  - 第11-12章 模型基础强化学习
+  - 第13章 离线强化学习
+  - 第14章 多智能体强化学习
+  - 第15-19章 其他前沿主题
+  
+  **第六部分：实践与应用**（规划中）
+  - 第20章 工程实践
+  - 第21章 应用案例
 - **deep-learning/** - 深度学习笔记
 - **planning/** - 规划算法笔记
 - **vehicle-control/** - 车辆控制笔记
