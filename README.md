@@ -9,20 +9,20 @@
   **第一部分：基础理论**
   - [第1章 强化学习入门](reinforcement-learning/01_第一部分_基础理论/ch01_强化学习入门.ipynb)
   - [第2章 马尔可夫决策过程](reinforcement-learning//01_第一部分_基础理论/ch02_马尔可夫决策过程.ipynb)
-  - [第3章 有模型与无模型强化学习](reinforcement-learning/ch03_有模型与无模型强化学习.ipynb)
+  - [第3章 有模型与无模型强化学习](reinforcement-learning//01_第一部分_基础理论/ch03_有模型与无模型强化学习.ipynb)
   
-  **第二部分：函数近似与深度强化学习**（规划中）
-  - [第4章 函数近似](reinforcement-learning/02_第二部分/ch04_函数近似.ipynb)
-  - [第5章 深度Q网络(DQN)](reinforcement-learning/02_第二部分/ch05_深度Q网络.ipynb)
+  **第二部分：函数近似与深度强化学习**
+  - [第4章 函数近似](reinforcement-learning/02_第二部分_函数近似与深度强化学习/ch04_函数近似.ipynb)
+  - [第5章 深度Q网络(DQN)](reinforcement-learning/02_第二部分_函数近似与深度强化学习/ch05_深度Q网络.ipynb)
   
-  **第三部分：策略梯度方法**（规划中）
-  - [第6章 策略梯度基础](reinforcement-learning/02_第二部分/ch06_策略梯度基础.ipynb)
-  - [第7章 Actor-Critic 方法](reinforcement-learning/02_第二部分/ch07_Actor-Critic方法.ipynb)
-  - [第8章 策略梯度方法](reinforcement-learning/02_第二部分/ch08_策略梯度方法.ipynb)
+  **第三部分：策略梯度方法**
+  - [第6章 策略梯度基础](reinforcement-learning/03_第三部分_策略梯度方法/ch06_策略梯度基础.ipynb)
+  - [第7章 Actor-Critic 方法](reinforcement-learning/03_第三部分_策略梯度方法/ch07_Actor-Critic方法.ipynb)
+  - [第8章 策略梯度方法](reinforcement-learning/03_第三部分_策略梯度方法/ch08_策略梯度方法.ipynb)
   
-  **第四部分：连续控制**（规划中）
-  - [第9章 确定性策略梯度(DDPG, TD3)](reinforcement-learning/02_第二部分/ch09_确定性策略梯度.ipynb)
-  - [第10章 最大熵强化学习(SAC)](reinforcement-learning/02_第二部分/ch10_最大熵强化学习.ipynb)
+  **第四部分：连续控制**
+  - [第9章 确定性策略梯度(DDPG, TD3)](reinforcement-learning/04_第四部分_连续控制/ch09_确定性策略梯度.ipynb)
+  - [第10章 最大熵强化学习(SAC)](reinforcement-learning/04_第四部分_连续控制/ch10_最大熵强化学习.ipynb)
   
   **第五部分：前沿主题**（规划中）
   - 第11-12章 模型基础强化学习
