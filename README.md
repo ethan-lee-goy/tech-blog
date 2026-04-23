@@ -17,12 +17,12 @@
   
   **第三部分：策略梯度方法**（规划中）
   - [第6章 策略梯度基础](reinforcement-learning/02_第二部分/ch06_策略梯度基础.ipynb)
-  - [第7章 Actor-Critic 方法](reinforcement-learning/02_第二部分/ch07_Actor-Critic方法.ipynb))
+  - [第7章 Actor-Critic 方法](reinforcement-learning/02_第二部分/ch07_Actor-Critic方法.ipynb)
   - [第8章 策略梯度方法](reinforcement-learning/02_第二部分/ch08_策略梯度方法.ipynb)
   
   **第四部分：连续控制**（规划中）
-  - [第9章 确定性策略梯度(DDPG, TD3)](reinforcement-learning/02_第二部分/ch09_确定性策略梯度.ipynb))
-  - [第10章 最大熵强化学习(SAC)](reinforcement-learning/02_第二部分/ch10_最大熵强化学习.ipynb))
+  - [第9章 确定性策略梯度(DDPG, TD3)](reinforcement-learning/02_第二部分/ch09_确定性策略梯度.ipynb)
+  - [第10章 最大熵强化学习(SAC)](reinforcement-learning/02_第二部分/ch10_最大熵强化学习.ipynb)
   
   **第五部分：前沿主题**（规划中）
   - 第11-12章 模型基础强化学习
