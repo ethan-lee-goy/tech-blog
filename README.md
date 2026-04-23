@@ -7,9 +7,9 @@
 - **reinforcement-learning/** - 强化学习笔记 | [📚 完整学习路线图](reinforcement-learning/ROADMAP.md)
   
   **第一部分：基础理论**
-  - [第1章 强化学习入门](reinforcement-learning/ch01_intro_to_rl.ipynb)
-  - [第2章 马尔可夫决策过程](reinforcement-learning/ch02_mdp.ipynb)
-  - [第3章 有模型与无模型强化学习](reinforcement-learning/ch03_model_based_rl_vs_model_free_rl.ipynb)
+  - [第1章 强化学习入门](reinforcement-learning/01_第一部分_基础理论/ch01_强化学习入门.ipynb)
+  - [第2章 马尔可夫决策过程](reinforcement-learning//01_第一部分_基础理论/ch02_马尔可夫决策过程.ipynb)
+  - [第3章 有模型与无模型强化学习](reinforcement-learning/ch03_有模型与无模型强化学习.ipynb)
   
   **第二部分：函数近似与深度强化学习**（规划中）
   - [第4章 函数近似](reinforcement-learning/02_第二部分/ch04_函数近似.ipynb)
