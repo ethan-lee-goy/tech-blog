@@ -7,6 +7,7 @@
 - **reinforcement-learning/** - 强化学习笔记
   - [第1章 强化学习入门](reinforcement-learning/ch01_intro_to_rl.ipynb)
   - [第2章 马尔可夫决策过程](reinforcement-learning/ch02_mdp.ipynb)
+  - [第3章 从有模型到无模型强化学习](reinforcement-learning/ch03_model_based_rl_vs_model_free_rl.ipynb)
 - **deep-learning/** - 深度学习笔记
 - **planning/** - 规划算法笔记
 - **vehicle-control/** - 车辆控制笔记
