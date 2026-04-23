@@ -24,6 +24,3 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.bak
-
-# MkDocs build output
-site/

@@ -1,39 +1,31 @@
-# Ethan Lee's Technical Blog
+# 技术学习笔记
 
-> 在线阅读：https://ethan-lee-goy.github.io/tech-blog
+个人学习笔记仓库，记录深度学习、强化学习、规划算法等领域的学习内容。
 
-个人技术博客，记录和分享在人工智能、自动驾驶和算法领域的学习与研究。
+## 目录结构
 
-## 博客主题
+- **reinforcement-learning/** - 强化学习笔记
+  - [第1章 强化学习入门](reinforcement-learning/ch01_intro_to_rl.ipynb)
+  - [第2章 马尔可夫决策过程](reinforcement-learning/ch02_mdp.ipynb)
+- **deep-learning/** - 深度学习笔记
+- **planning/** - 规划算法笔记
+- **vehicle-control/** - 车辆控制笔记
+- **game-theory/** - 博弈算法笔记
+- **world-models/** - 世界模型笔记
 
-| 主题 | 说明 |
-|------|------|
-| 深度学习 | 神经网络架构、训练技巧、最新研究 |
-| 强化学习 | RL算法、策略优化、应用案例 |
-| 博弈算法 | 博弈论基础、纳什均衡、多智能体系统 |
-| 车辆控制 | 轨迹跟踪、稳定性控制、自适应控制 |
-| 规划算法 | 路径规划、运动规划、决策规划 |
-| 世界模型 | 环境建模、预测模型、模型学习 |
+## 使用说明
 
-## 技术栈
+所有笔记使用 Jupyter Notebook 格式（`.ipynb`），可以直接在 GitHub 上查看，或使用 Jupyter Lab/Notebook 本地运行。
 
-- 使用 [MkDocs](https://www.mkdocs.org/) + [Material](https://squidfunk.github.io/mkdocs-material/) 主题构建
-- 通过 [mkdocs-jupyter](https://github.com/danielfrg/mkdocs-jupyter) 原生渲染 Jupyter Notebook
-- 支持 KaTeX 数学公式渲染
-- GitHub Actions 自动构建部署
-
-## 本地预览
+## 环境配置
 
 ```bash
-pip install -r requirements.txt
-mkdocs serve
+# 安装 Jupyter
+pip install jupyter notebook
+
+# 启动 Jupyter
+jupyter notebook
 ```
-
-## 添加文章
-
-1. 将 `.md` 或 `.ipynb` 文件放到 `docs/` 对应目录下
-2. 在 `mkdocs.yml` 的 `nav` 中添加链接
-3. 提交并推送，GitHub Actions 自动部署
 
 ## 作者
 
