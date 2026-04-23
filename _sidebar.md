@@ -6,7 +6,7 @@
 
 - 强化学习
   - [概述](/reinforcement-learning/)
-  - [第1章 强化学习入门](/reinforcement-learning/ch01_intro_to_rl.ipynb)
+  - [第1章 强化学习入门](/reinforcement-learning/ch01_intro_to_rl)
 
 - 博弈算法
   - [概述](/game-theory/)
