@@ -1,2 +1,5 @@
 mkdocs-material
 mkdocs-jupyter
+nbconvert
+jupyter_core
+ipykernel
