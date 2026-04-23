@@ -2,6 +2,7 @@
 
 - 深度学习
   - [概述](/deep-learning/)
+  - [CNN 基础入门](/deep-learning/cnn_basics)
 
 - 强化学习
   - [概述](/reinforcement-learning/)
