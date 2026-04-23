@@ -1,5 +1,7 @@
 # Ethan Lee's Technical Blog
 
+> 在线阅读：https://ethan-lee-goy.github.io/tech-blog/
+
 个人技术博客，记录和分享在人工智能、自动驾驶和算法领域的学习与研究。
 
 ## 博客主题
