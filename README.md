@@ -6,25 +6,34 @@
 
 ## 博客主题
 
-- **深度学习 (Deep Learning)** - 神经网络架构、训练技巧、最新研究
-- **强化学习 (Reinforcement Learning)** - RL算法、策略优化、应用案例
-- **博弈算法 (Game Theory)** - 博弈论基础、纳什均衡、多智能体系统
-- **车辆控制算法 (Vehicle Control)** - 轨迹跟踪、稳定性控制、自适应控制
-- **规划算法 (Planning Algorithms)** - 路径规划、运动规划、决策规划
-- **世界模型 (World Models)** - 环境建模、预测模型、模型学习
+| 主题 | 说明 |
+|------|------|
+| 深度学习 | 神经网络架构、训练技巧、最新研究 |
+| 强化学习 | RL算法、策略优化、应用案例 |
+| 博弈算法 | 博弈论基础、纳什均衡、多智能体系统 |
+| 车辆控制 | 轨迹跟踪、稳定性控制、自适应控制 |
+| 规划算法 | 路径规划、运动规划、决策规划 |
+| 世界模型 | 环境建模、预测模型、模型学习 |
 
-## 目录结构
+## 技术栈
 
+- 使用 [MkDocs](https://www.mkdocs.org/) + [Material](https://squidfunk.github.io/mkdocs-material/) 主题构建
+- 通过 [mkdocs-jupyter](https://github.com/danielfrg/mkdocs-jupyter) 原生渲染 Jupyter Notebook
+- 支持 KaTeX 数学公式渲染
+- GitHub Actions 自动构建部署
+
+## 本地预览
+
+```bash
+pip install -r requirements.txt
+mkdocs serve
 ```
-tech-blog/
-├── deep-learning/      # 深度学习相关文章
-├── reinforcement-learning/  # 强化学习相关文章
-├── game-theory/        # 博弈算法相关文章
-├── vehicle-control/    # 车辆控制算法相关文章
-├── planning/           # 规划算法相关文章
-├── world-models/       # 世界模型相关文章
-└── assets/             # 图片、图表等资源文件
-```
+
+## 添加文章
+
+1. 将 `.md` 或 `.ipynb` 文件放到 `docs/` 对应目录下
+2. 在 `mkdocs.yml` 的 `nav` 中添加链接
+3. 提交并推送，GitHub Actions 自动部署
 
 ## 作者
 
