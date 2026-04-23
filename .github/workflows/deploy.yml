@@ -20,13 +20,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: |
-          pip install -r requirements.txt
-          pip install jupyter nbconvert
-
-      - name: Convert notebooks to markdown
-        run: |
-          find docs -name "*.ipynb" -exec jupyter nbconvert --to markdown {} \;
+        run: pip install mkdocs-material
 
       - name: Deploy to GitHub Pages
         run: mkdocs gh-deploy --force
