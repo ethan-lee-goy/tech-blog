@@ -33,9 +33,6 @@
 ### 第 4 章 函数近似
 - 4.1 从表格方法到函数近似
 - 4.2 线性函数近似
-  - 特征工程
-  - 梯度下降 TD
-  - 最小二乘 TD（LSTD）
 - 4.3 非线性函数近似
   - 神经网络基础
   - 深度学习在 RL 中的应用
@@ -240,88 +237,6 @@
 - 23.2 安全探索
 - 23.3 鲁棒性
 - 23.4 可解释性
-
----
-
-## 附录
-
-### 附录 A：数学基础
-- A.1 概率论与统计
-- A.2 线性代数
-- A.3 优化理论
-- A.4 信息论
-
-### 附录 B：深度学习基础
-- B.1 神经网络
-- B.2 卷积神经网络
-- B.3 循环神经网络
-- B.4 Transformer
-
-### 附录 C：经典论文列表
-- 按主题分类的必读论文
-
-### 附录 D：实验环境
-- D.1 Gym / Gymnasium
-- D.2 MuJoCo
-- D.3 PyBullet
-- D.4 Unity ML-Agents
-- D.5 Isaac Gym
-
----
-
-## 学习建议
-
-### 初学者路径（3-6 个月）
-1. 第 1-3 章：基础理论
-2. 第 4-5 章：DQN
-3. 第 6-7 章：策略梯度基础
-4. 第 8 章：PPO
-5. 第 20 章：实践
-
-### 进阶路径（6-12 个月）
-1. 完成初学者路径
-2. 第 9-10 章：连续控制
-3. 第 11-12 章：模型基础方法
-4. 第 13 章：离线 RL
-5. 第 17 章：模仿学习与 RLHF
-6. 第 21 章：应用案例
-
-### 研究者路径（12+ 个月）
-1. 完成进阶路径
-2. 第 14-16 章：前沿主题
-3. 第 18-19 章：探索与奖励
-4. 第 22-23 章：理论基础
-5. 阅读最新论文，复现 SOTA 算法
-
----
-
-## 参考资源
-
-### 经典教材
-- Sutton & Barto: Reinforcement Learning: An Introduction (2nd Edition)
-- Csaba Szepesvári: Algorithms for Reinforcement Learning
-- Dimitri Bertsekas: Dynamic Programming and Optimal Control
-
-### 在线课程
-- David Silver's RL Course (DeepMind)
-- CS285: Deep Reinforcement Learning (UC Berkeley)
-- Spinning Up in Deep RL (OpenAI)
-
-### 论文资源
-- arXiv.org (cs.LG, cs.AI)
-- NeurIPS, ICML, ICLR 会议论文
-- JMLR, TMLR 期刊
-
-### 代码资源
-- Stable-Baselines3: https://github.com/DLR-RM/stable-baselines3
-- CleanRL: https://github.com/vwxyzjn/cleanrl
-- RLlib: https://docs.ray.io/en/latest/rllib/
-
----
-
-**最后更新时间**：2024 年
-
-**说明**：本路线图涵盖了从经典算法到最新前沿的完整强化学习知识体系。建议根据自己的背景和目标选择合适的学习路径。
 
 ---
 
@@ -567,6 +482,83 @@
 - 扩散模型在 RL 中的广泛应用
 - 具身智能商业化
 ```
+---
+
+## 附录
+
+### 附录 A：数学基础
+- A.1 概率论与统计
+- A.2 线性代数
+- A.3 优化理论
+- A.4 信息论
+
+### 附录 B：深度学习基础
+- B.1 神经网络
+- B.2 卷积神经网络
+- B.3 循环神经网络
+- B.4 Transformer
+
+### 附录 C：经典论文列表
+- 按主题分类的必读论文
+
+### 附录 D：实验环境
+- D.1 Gym / Gymnasium
+- D.2 MuJoCo
+- D.3 PyBullet
+- D.4 Unity ML-Agents
+- D.5 Isaac Gym
+
+---
+
+## 学习建议
+
+### 初学者路径（3-6 个月）
+1. 第 1-3 章：基础理论
+2. 第 4-5 章：DQN
+3. 第 6-7 章：策略梯度基础
+4. 第 8 章：PPO
+5. 第 20 章：实践
+
+### 进阶路径（6-12 个月）
+1. 完成初学者路径
+2. 第 9-10 章：连续控制
+3. 第 11-12 章：模型基础方法
+4. 第 13 章：离线 RL
+5. 第 17 章：模仿学习与 RLHF
+6. 第 21 章：应用案例
+
+### 研究者路径（12+ 个月）
+1. 完成进阶路径
+2. 第 14-16 章：前沿主题
+3. 第 18-19 章：探索与奖励
+4. 第 22-23 章：理论基础
+5. 阅读最新论文，复现 SOTA 算法
+
+---
+
+## 参考资源
+
+### 经典教材
+- Sutton & Barto: Reinforcement Learning: An Introduction (2nd Edition)
+- Csaba Szepesvári: Algorithms for Reinforcement Learning
+- Dimitri Bertsekas: Dynamic Programming and Optimal Control
+
+### 在线课程
+- David Silver's RL Course (DeepMind)
+- CS285: Deep Reinforcement Learning (UC Berkeley)
+- Spinning Up in Deep RL (OpenAI)
+
+### 论文资源
+- arXiv.org (cs.LG, cs.AI)
+- NeurIPS, ICML, ICLR 会议论文
+- JMLR, TMLR 期刊
+
+### 代码资源
+- Stable-Baselines3: https://github.com/DLR-RM/stable-baselines3
+- CleanRL: https://github.com/vwxyzjn/cleanrl
+- RLlib: https://docs.ray.io/en/latest/rllib/
+
+---
 
 ### 🎯 学习建议更新
 
@@ -627,7 +619,3 @@
 - **GNoME**: Discovering New Materials (2023)
 
 ---
-
-**最后更新时间**：2025 年 5 月
-
-**说明**：本路线图持续更新，反映强化学习领域的最新进展。2024-2025 年是 RL 与基础模型深度融合的关键时期，建议学习者特别关注第 22-26 章的内容。
